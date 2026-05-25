@@ -1055,37 +1055,40 @@ const services = [
 
       {/* BOTTOM CTA */}
       <div style={{ padding: "32px 32px 100px" }}>
-        <div className="cta-band">
-          <div className="cta-band-left">
-            <h2 className="cta-band-title">
-              Ready to get your UK tax
-              <br />
-              <em>position right?</em>
-            </h2>
-            <p className="cta-band-sub">
-              Fixed-fee quote. No commitment. Expert advice from day one.
-            </p>
-            <p className="cta-band-note">
-              30-minute call · HMRC-specialist advisors · 50+ countries covered
-            </p>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: 12,
-              flexShrink: 0,
-            }}
-          >
-            <button
-              className="btn-primary"
-              style={{ fontSize: 15, padding: "16px 32px" }}
+        <ScrollReveal>
+          <div className="cta-band">
+            <div className="cta-band-left">
+              <h2 className="cta-band-title">
+                Ready to get your UK tax
+                <br />
+                <em>position right?</em>
+              </h2>
+              <p className="cta-band-sub">
+                Fixed-fee quote. No commitment. Expert advice from day one.
+              </p>
+              <p className="cta-band-note">
+                30-minute call · HMRC-specialist advisors · 50+ countries
+                covered
+              </p>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: 12,
+                flexShrink: 0,
+              }}
             >
-              Book a Free Consultation
-              <IconArrow size={17} />
-            </button>
+              <button
+                className="btn-primary"
+                style={{ fontSize: 15, padding: "16px 32px" }}
+              >
+                Book a Free Consultation
+                <IconArrow size={17} />
+              </button>
+            </div>
           </div>
-        </div>
+        </ScrollReveal>
       </div>
     </>
   );
